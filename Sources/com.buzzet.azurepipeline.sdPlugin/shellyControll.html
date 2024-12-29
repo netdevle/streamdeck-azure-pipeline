@@ -41,6 +41,12 @@
             </div>
                 <p>Starting by 0</p>
         </div>
+        <div type="field" class="sdpi-item">
+            <div class="sdpi-item-label">Frequency (secs)</div>
+            <div class="sdpi-item-value field">
+                <input id="frequencySecsField" oninput="sendValueToPlugin(event.target.value, 'setFrequencySecs')">
+            </div>
+        </div>
     </div>
 
     <script>
@@ -61,6 +67,7 @@
                 document.getElementById('accessTokenField').value = settings.accessToken || ''
                 document.getElementById('pipelineIdField').value = settings.pipelineId || ''
                 document.getElementById('runIndex').value = settings.runIndex || ''
+                document.getElementById('frequencySecsField').value = settings.frequencySecs || ''
             });
         };
 

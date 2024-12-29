@@ -1,41 +1,41 @@
 {
-  "Actions": [
-    {
-      "Icon": "actionIcon",
-      "Name": "AzurePipeline",
-      "States": [
-        {
-          "Image": "keyIcon"
-        }
-      ],
-      "SupportedInMultiActions": false,
-      "Tooltip": "Shows the status of the azure pipeline",
-      "UUID": "com.buzzet.azurepipeline.action"
-    }
-  ],
-  "SDKVersion": 2,
-  "Category": "Buzzet",
-  "CategoryIcon": "categoryIcon",
-  "Author": "Jannik Reinefeld",
-  "CodePath": "index.html",
-  "Description": "This Plugin can be used to show the status of the azure pipeline",
-  "Name": "Azure Pipeline",
-  "Icon": "keyIcon",
-  "URL": "https://github.com/Buzzet/streamdeck-azure-pipeline",
-  "PropertyInspectorPath": "shellyControll.html",
-  "Version": "1.1",
-  "OS": [
-    {
-      "Platform": "mac",
-      "MinimumVersion": "10.11"
-    },
-    {
-      "Platform": "windows",
-      "MinimumVersion": "10"
-    }
-  ],
-  "Software": 
-    {
-        "MinimumVersion" : "4.1"
-    }
+	"Actions": [
+		{
+			"Icon": "actionIcon",
+			"Name": "AzurePipeline",
+			"States": [
+				{
+					"Image": "keyIcon"
+				}
+			],
+			"SupportedInMultiActions": false,
+			"Tooltip": "Shows the status of the azure pipeline",
+			"UUID": "com.buzzet.azurepipeline.action"
+		}
+	],
+	"SDKVersion": 2,
+	"UUID": "com.buzzet.azurepipeline",
+	"Category": "Azure Pipeline",
+	"CategoryIcon": "categoryIcon",
+	"Author": "Jannik Reinefeld",
+	"CodePath": "index.html",
+	"Description": "This Plugin can be used to show the status of the azure pipeline",
+	"Name": "Azure Pipeline",
+	"Icon": "keyIcon",
+	"URL": "https://github.com/Buzzet/streamdeck-azure-pipeline",
+	"PropertyInspectorPath": "shellyControll.html",
+	"Version": "1.2.2.0",
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "10.11"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Software": {
+		"MinimumVersion": "6.4"
+	}
 }
